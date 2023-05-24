@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1 class="logo">
+                <img src="linear globe.svg" alt="Discover the World">
+            </h1>
+            <h1>Discover the World</h1>
+
+            <form>
+                <select class="custom-select" name="valueX">
+                    <option value="singlePerson" selected>Single person cost</option>
+                    <option value="family">Family of 4 cost</option>
+                    <option value="apartment">1 bed city-center apartment</option>
+                    <option value="utilities">Cost of monthly utilities</option>
+                    <option value="monthlyPass">Monthly cost of transport</option>
+                    <option value="expensiveMeal">Expensive meal for 2</option>
+                </select>
+
+                <span>vs</span>
+
+                <select class="custom-select" name="valueY">
+                    <option value="singlePerson">Single person cost</option>
+                    <option value="family">Family of 4 cost</option>
+                    <option value="apartment" selected>1 bed city-center apartment</option>
+                    <option value="utilities">Cost of monthly utilities</option>
+                    <option value="monthlyPass">Monthly cost of transport</option>
+                    <option value="expensiveMeal">Expensive meal for 2</option>
+                </select>
+            </form>
+        </header>
+
+        <svg></svg>
+
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="data.js"></script>
+        <script src="cities.js"></script>
+    </body>
+</html>
