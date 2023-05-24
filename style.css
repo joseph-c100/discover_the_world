@@ -89,7 +89,7 @@ g.city:hover rect, g.city:hover text {
 
 @media (max-width: 480px) {
     .custom-select {
-        padding: 4px 4px 4px 4px;
+        width: 100%;
     }
 
     .logo img {
