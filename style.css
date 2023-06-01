@@ -57,7 +57,7 @@ text.x-axis, text.y-axis {
 }
 
 .logo img {
-    position: fixed;
+    position: absolute;
     top: -50px;
     left: -50px;
     width: 300px;
@@ -88,6 +88,11 @@ g.city:hover rect, g.city:hover text {
 }
 
 @media (max-width: 480px) {
+    form {
+        width: 80%;
+        display: inline-block;
+    }
+
     .custom-select {
         width: 100%;
     }
